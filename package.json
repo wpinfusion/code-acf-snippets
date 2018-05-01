@@ -2,7 +2,7 @@
     "name": "code-acf-snippets",
     "displayName": "ACF Programmatic Fields",
     "description": "Easily create ACF fields and field groups in PHP without ever touching the GUI!",
-    "version": "0.1.0",
+    "version": "0.1.5",
     "publisher": "timlogemann",
     "engines": {
         "vscode": "^1.21.0"
