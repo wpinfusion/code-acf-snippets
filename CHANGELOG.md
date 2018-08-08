@@ -2,6 +2,12 @@
 
 If you see any typos in one of the snippets, do not hesitate to open an issue on [github](https://github.com/timlogemann/code-acf-snippets)
 
+## 0.1.6
+- the `acf_add_local_field()` function wrapped around each field is now a separate snippet. Allowing you to easily register any field inside a field group without needing to remove that outer function.
+- Removed an empty whiteline below every 'name' property for consistency
+- Patched in the missing `,` after each `'parent' => ''` property.
+- Switched to indentation using tabstops rather than hardcoded spaces
+
 ## 0.1.5
 - Fixed some variable placeholders that did not start with a $ like {4:PLACEHOLDER} 
 - Updated ${1:KEY} to start with the mandatory 'field_' for acf fields -> ${1:field_KEY}
