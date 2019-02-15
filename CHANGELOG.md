@@ -2,8 +2,10 @@
 
 If you see any typos in one of the snippets, do not hesitate to open an issue on [github](https://github.com/timlogemann/code-acf-snippets)
 
-## 0.3.0 (WIP)
-- Added `acf_add_flex_content`. Now you can easily create flexible content! I don't know why this snippet didn't exist yet.
+## 0.3.0
+- Added `acf_add_flex_content`
+- Added `acf_add_flex_layout`. Use them only inside `acf_add_flex_content`!
+- Added `acf_add_link_field`
 
 ## 0.2.5
 - Removed some persistent whitelines

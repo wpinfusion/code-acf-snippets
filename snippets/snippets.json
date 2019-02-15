@@ -151,8 +151,23 @@
 	},
 	"acf_add_repeater": {
 		"prefix": "acf_add_repeater",
-		"body": "array(\n\t'key' => '${1:name}',\n\t'label' => '${2:label}',\n\t'name' => '${1:name}',\n\t'type' => 'repeater',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'collapsed' => '',\n\t'min' => 0,\n\t'max' => 0,\n\t'layout' => 'table',\n\t'button_label' => 'Add item',\n\t'sub_fields' => array(\n\t${3:children}\n\t),\n\t),",
+		"body": "array(\n\t'key' => '${1:name}',\n\t'label' => '${2:label}',\n\t'name' => '${1:name}',\n\t'type' => 'repeater',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'collapsed' => '',\n\t'min' => 0,\n\t'max' => 0,\n\t'layout' => 'table',\n\t'button_label' => 'Add item',\n\t'sub_fields' => array(\n\t\t${3:children}\n\t),\n),",
 		"description": "Adds an ACF Repeater field",
 		"scope": "source.php"
+	},
+	"acf_add_link_field": {
+		"prefix": "acf_add_link_field",
+		"body": "array(\n\t'key' => '${1:name}',\n\t'label' => '${2:label}','name' => '${1:name}',\n\t'type' => 'link',\t),",
+		"description": "ACF field to add a link"
+	},
+	"acf_add_flex_content": {
+		"prefix": "acf_add_flex_content",
+		"body": "acf_add_local_field_group(array(\n\t'key' => 'today_flexible_content',\n\t'title' => 'Flexibele content',\n\t'fields' => array(\n\t\tarray(\n\t\t\t'key' => 'flexible_content',\n\t\t\t'name' => 'flexible_content',\n\t\t\t'label' => 'Flexibele content',\n\t\t\t'type' => 'flexible_content',\n\t\t\t'button_label' => 'Nieuw flexibel content blok',\n\t\t\t'layouts' => array(\n\t\t\t),\n\t\t),\n\t),\n\t'location' => array(\n\t\tarray(\n\t\t\tarray(\n\t\t\t\t'param' => 'post_type',\n\t\t\t\t'operator' => '==',\n\t\t\t\t'value' => 'page',\n\t\t\t),\n\t\t),\n\t),\n));",
+		"description": "ACF add flexible content field"
+	},
+	"acf_add_flex_layout": {
+		"prefix": "acf_add_flex_layout",
+		"body": "'${1:name}' => array(\n\t'key' => '${1:name}',\n\t'name' => '${1:name}',\n\t'label' => '${2:label}',\n\t'display' => 'block',\n\t'sub_fields' => array(\n\t),\n),",
+		"description": "ACF add flexible layout (must be a child of a flexible content"
 	}
 }
