@@ -31,7 +31,7 @@
 	},
 	"acf_add_image_field": {
 		"prefix": "acf_add_image_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'image',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t\n\t'return_format' => 'array',\n\t\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_width' => 0,\n\t'min_height' => 0,\n\t\n\t'min_size' => 0,\n\t'max_width' => 0,\n\t'max_height' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'image',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'return_format' => 'array',\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_width' => 0,\n\t'min_height' => 0,\n\t'min_size' => 0,\n\t'max_width' => 0,\n\t'max_height' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
 		"description": "Adds an ACF Image field",
 		"scope": "source.php"
 	},
@@ -43,7 +43,7 @@
 	},
 	"acf_add_field_group": {
 		"prefix": "acf_add_field_group",
-		"body": "acf_add_local_field_group(array(\n\t'key' => '${1:group_KEY}',\n\t'title' => '${2:TITLE}',\n\t'fields' => array(),\n\t'location' => array(\n\t  array(\n\t    array(\n\t      'param' => 'post_type',\n\t      'operator' => '==',\n\t      'value' => 'post',\n\t    ),\n\t  ),\n\t),\n\t'menu_order' => 0,\n\t'position' => 'normal',\n\t'style' => 'default',\n\t\n\t'label_placement' => 'top',\n\t'instruction_placement' => 'label',\n\t'hide_on_screen' => '',\n)$0\n",
+		"body": "acf_add_local_field_group(array(\n\t'key' => '${1:group_KEY}',\n\t'title' => '${2:TITLE}',\n\t'fields' => array(),\n\t'location' => array(\n\t  array(\n\t    array(\n\t      'param' => 'post_type',\n\t      'operator' => '==',\n\t      'value' => 'post',\n\t    ),\n\t  ),\n\t),\n\t'menu_order' => 0,\n\t'position' => 'normal',\n\t'style' => 'default',\n\t'label_placement' => 'top',\n\t'instruction_placement' => 'label',\n\t'hide_on_screen' => '',\n)$0\n",
 		"description": "Adds an ACF Field Group",
 		"scope": "source.php"
 	},
@@ -67,7 +67,7 @@
 	},
 	"acf_add_page_link_field": {
 		"prefix": "acf_add_page_link_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'page_link',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'allow_null' => 0,\n\t\n\t'multiple' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'page_link',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'allow_null' => 0,\n\t'multiple' => 0,\n)$0\n",
 		"description": "Adds an ACF Page Link field",
 		"scope": "source.php"
 	},
@@ -103,7 +103,7 @@
 	},
 	"acf_add_taxonomy_field": {
 		"prefix": "acf_add_taxonomy_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'taxonomy',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'filters' => array('search', 'post_type', 'taxonomy'),\n\t\n\t'elements' => array(),\n\t'min' => 0,\n\t'max' => 0,\n\t'return_format' => 'object',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'taxonomy',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'filters' => array('search', 'post_type', 'taxonomy'),\n\t'elements' => array(),\n\t'min' => 0,\n\t'max' => 0,\n\t'return_format' => 'object',\n)$0\n",
 		"description": "Adds an ACF Taxonomy field",
 		"scope": "source.php"
 	},
@@ -147,6 +147,12 @@
 		"prefix": "acf_add_wrapper_values",
 		"body": "'wrapper' => array (\n\t'width' => '',\n\t'class' => '',\n\t'id' => '',\n\t),",
 		"description": "Adds an ACF WYSIWYG",
+		"scope": "source.php"
+	},
+	"acf_add_repeater": {
+		"prefix": "acf_add_repeater",
+		"body": "array(\n\t'key' => '${1:name}',\n\t'label' => '${2:label}',\n\t'name' => '${1:name}',\n\t'type' => 'repeater',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'collapsed' => '',\n\t'min' => 0,\n\t'max' => 0,\n\t'layout' => 'table',\n\t'button_label' => 'Add item',\n\t'sub_fields' => array(\n\t${3:children}\n\t),\n\t),",
+		"description": "Adds an ACF Repeater field",
 		"scope": "source.php"
 	}
 }
