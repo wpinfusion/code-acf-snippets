@@ -1,3 +1,11 @@
+***
+Not actively maintained anymore!
+---
+
+When I created this extension I was still employed for an agency with WordPress websites being it's primary business. Since then I've moved on to a different company with different types of projects. WordPress not being one of them. While I'm happy to help and support anyone needing fixes for some of the buggy snippets, this means that I won't be updating this extension on my own anymore. This will likely not be a very big issue, since it isn't used by thousands or millions of people and the last update has been 5 months ago already. It's so that the people who do use this extension are aware of this. Feel free to create Pull Requests and improve this extension!
+
+***
+
 # ACF Programmatic Fields
 
 This is a collection of Visual Studio Code snippets for the
