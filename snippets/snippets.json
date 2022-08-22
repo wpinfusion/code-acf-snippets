@@ -7,31 +7,31 @@
 	},
 	"acf_add_checkbox_field": {
 		"prefix": "acf_add_checkbox_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'checkbox',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'choices' => array(),\n\t'layout' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'checkbox',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'choices' => array(),\n\t'layout' => 0,\n)$0\n",
 		"description": "Adds an ACF Checkbox",
 		"scope": "source.php"
 	},
 	"acf_add_email_field": {
 		"prefix": "acf_add_email_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'email',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n\t'prepend' => '',\n\t'append' => '',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'email',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n\t'prepend' => '',\n\t'append' => '',\n)$0\n",
 		"description": "Adds an ACF Email field",
 		"scope": "source.php"
 	},
 	"acf_add_file_field": {
 		"prefix": "acf_add_file_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'file',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'return_format' => 'array',\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_size' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'file',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'return_format' => 'array',\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_size' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
 		"description": "Adds an ACF File field",
 		"scope": "source.php"
 	},
 	"acf_add_gallery": {
 		"prefix": "acf_add_gallery",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'gallery',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'min' => 0,\n\t'max' => 0,\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_width' => 0,\n\t'min_height' => 0,\n\t'min_size' => 0,\n\t'max_width' => 0,\n\t'max_height' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'gallery',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'min' => 0,\n\t'max' => 0,\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_width' => 0,\n\t'min_height' => 0,\n\t'min_size' => 0,\n\t'max_width' => 0,\n\t'max_height' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
 		"description": "Adds an ACF Gallery",
 		"scope": "source.php"
 	},
 	"acf_add_image_field": {
 		"prefix": "acf_add_image_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'image',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'return_format' => 'array',\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_width' => 0,\n\t'min_height' => 0,\n\t'min_size' => 0,\n\t'max_width' => 0,\n\t'max_height' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'image',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'return_format' => 'array',\n\t'preview_size' => 'thumbnail',\n\t'library' => 'all',\n\t'min_width' => 0,\n\t'min_height' => 0,\n\t'min_size' => 0,\n\t'max_width' => 0,\n\t'max_height' => 0,\n\t'max_size' => 0,\n\t'mime_types' => '',\n)$0\n",
 		"description": "Adds an ACF Image field",
 		"scope": "source.php"
 	},
@@ -61,91 +61,91 @@
 	},
 	"acf_add_oembed": {
 		"prefix": "acf_add_oembed",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'oembed',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'width' => '',\n\t'height' => '',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'oembed',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'width' => '',\n\t'height' => '',\n)$0\n",
 		"description": "Adds an ACF oEmbed",
 		"scope": "source.php"
 	},
 	"acf_add_page_link_field": {
 		"prefix": "acf_add_page_link_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'page_link',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'allow_null' => 0,\n\t'multiple' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'page_link',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'allow_null' => 0,\n\t'multiple' => 0,\n)$0\n",
 		"description": "Adds an ACF Page Link field",
 		"scope": "source.php"
 	},
 	"acf_add_password_field": {
 		"prefix": "acf_add_password_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'password',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n\t'prepend' => '',\n\t'append' => '',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'password',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n\t'prepend' => '',\n\t'append' => '',\n)$0\n",
 		"description": "Adds an ACF Password field",
 		"scope": "source.php"
 	},
 	"acf_add_post_object_field": {
 		"prefix": "acf_add_post_object_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'post_object',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'allow_null' => 0,\n\t'multiple' => 0,\n\t'return_format' => 'object',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'post_object',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'allow_null' => 0,\n\t'multiple' => 0,\n\t'return_format' => 'object',\n)$0\n",
 		"description": "Adds an ACF Post Object field",
 		"scope": "source.php"
 	},
 	"acf_add_radio_field": {
 		"prefix": "acf_add_radio_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'radio',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'choices' => array(),\n\t'other_choice' => 0,\n\t'save_other_choice' => 0,\n\t'layout' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'radio',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'choices' => array(),\n\t'other_choice' => 0,\n\t'save_other_choice' => 0,\n\t'layout' => 0,\n)$0\n",
 		"description": "Adds an ACF Radiobutton",
 		"scope": "source.php"
 	},
 	"acf_add_relationship_field": {
 		"prefix": "acf_add_relationship_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'relationship',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'filters' => array('search', 'post_type', 'taxonomy'),\n\t'elements' => array(),\n\t'min' => 0,\n\t'max' => 0,\n\t'return_format' => 'object',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'relationship',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'filters' => array('search', 'post_type', 'taxonomy'),\n\t'elements' => array(),\n\t'min' => 0,\n\t'max' => 0,\n\t'return_format' => 'object',\n)$0\n",
 		"description": "Adds an ACF Relationship field",
 		"scope": "source.php"
 	},
 	"acf_add_select_field": {
 		"prefix": "acf_add_select_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'select',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'choices' => array(),\n\t'allow_null' => 0,\n\t'multiple' => 0,\n\t'ui' => 0,\n\t'ajax' => 0,\n\t'placeholder' => '${5:PLACEHOLDER}',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'select',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'choices' => array(),\n\t'allow_null' => 0,\n\t'multiple' => 0,\n\t'ui' => 0,\n\t'ajax' => 0,\n\t'placeholder' => '${5:PLACEHOLDER}',\n)$0\n",
 		"description": "Adds an ACF Select dropdown field",
 		"scope": "source.php"
 	},
 	"acf_add_taxonomy_field": {
 		"prefix": "acf_add_taxonomy_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'taxonomy',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'filters' => array('search', 'post_type', 'taxonomy'),\n\t'elements' => array(),\n\t'min' => 0,\n\t'max' => 0,\n\t'return_format' => 'object',\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'taxonomy',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'post_type' => '',\n\t'taxonomy' => '',\n\t'filters' => array('search', 'post_type', 'taxonomy'),\n\t'elements' => array(),\n\t'min' => 0,\n\t'max' => 0,\n\t'return_format' => 'object',\n)$0\n",
 		"description": "Adds an ACF Taxonomy field",
 		"scope": "source.php"
 	},
 	"acf_add_text_field": {
 		"prefix": "acf_add_text_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'text',\n\t'parent' => '${4:PARENT}',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${4:PLACEHOLDER}',\n\t'prepend' => '',\n\t'append' => '',\n\t'maxlength' => '',\n\t'readonly' => 0,\n\t'disabled' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'text',\n\t'parent' => '${4:PARENT}',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${4:PLACEHOLDER}',\n\t'prepend' => '',\n\t'append' => '',\n\t'maxlength' => '',\n\t'readonly' => 0,\n\t'disabled' => 0,\n)$0\n",
 		"description": "Adds an ACF Text field",
 		"scope": "source.php"
 	},
 	"acf_add_textarea": {
 		"prefix": "acf_add_textarea",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'textarea',\n\t'parent' => '${4}'\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n\t'maxlength' => '',\n\t'rows' => '',\n\t'new_lines' => '',\n\t'readonly' => 0,\n\t'disabled' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'textarea',\n\t'parent' => '${4}'\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n\t'maxlength' => '',\n\t'rows' => '',\n\t'new_lines' => '',\n\t'readonly' => 0,\n\t'disabled' => 0,\n)$0\n",
 		"description": "Adds an ACF Textarea",
 		"scope": "source.php"
 	},
 	"acf_add_true_false_field": {
 		"prefix": "acf_add_true_false_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'true_false',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'message' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'true_false',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'message' => 0,\n)$0\n",
 		"description": "Adds an ACF True/False (Switch) field",
 		"scope": "source.php"
 	},
 	"acf_add_url_field": {
 		"prefix": "acf_add_url_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'url',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n));\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'url',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'placeholder' => '${5:PLACEHOLDER}',\n));\n",
 		"description": "Adds an ACF URL field",
 		"scope": "source.php"
 	},
 	"acf_add_user_field": {
 		"prefix": "acf_add_user_field",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'user',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'role' => array(),\n\t'allow_null' => 0,\n\t'multiple' => 0,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'user',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'role' => array(),\n\t'allow_null' => 0,\n\t'multiple' => 0,\n)$0\n",
 		"description": "Adds an ACF User field",
 		"scope": "source.php"
 	},
 	"acf_add_wysiwyg": {
 		"prefix": "acf_add_wysiwyg",
-		"body": "array(\n\t'key' => '${1:field_KEY}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'wysiwyg',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'tabs' => 'all',\n\t'toolbar' => 'full',\n\t'media_upload' => 1,\n)$0\n",
+		"body": "array(\n\t'key' => '${1:field_' . $blockname . '_changethis}',\n\t'label' => '${2:LABEL}',\n\t'name' => '${3:NAME}',\n\t'type' => 'wysiwyg',\n\t'parent' => '$4',\n\t'instructions' => '',\n\t'required' => 0,\n\t'conditional_logic' => 0,\n\t'default_value' => '',\n\t'tabs' => 'all',\n\t'toolbar' => 'full',\n\t'media_upload' => 1,\n)$0\n",
 		"description": "Adds an ACF WYSIWYG",
 		"scope": "source.php"
 	},
 	"acf_add_wrapper_values": {
 		"prefix": "acf_add_wrapper_values",
-		"body": "'wrapper' => array (\n\t'width' => '',\n\t'class' => '',\n\t'id' => '',\n\t),",
+		"body": "'wrapper' => array(\n\t'width' => '',\n\t'class' => '',\n\t'id' => '',\n\t),",
 		"description": "Adds an ACF WYSIWYG",
 		"scope": "source.php"
 	},
