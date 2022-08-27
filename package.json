@@ -1,25 +1,25 @@
 {
-    "name": "code-acf-snippets",
-    "displayName": "ACF Programmatic Fields",
-    "description": "Easily create ACF fields and field groups in PHP without ever touching the GUI!",
-    "version": "0.3.1",
-    "publisher": "timlogemann",
-    "engines": {
-        "vscode": "^1.21.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/timlogemann/code-acf-snippets"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "php",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "code-acf-snippets",
+  "displayName": "ACF Programmatic Fields",
+  "description": "Easily create ACF fields and field groups in PHP without ever touching the GUI!",
+  "version": "1.0.0",
+  "publisher": "wpinfusion",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpinfusion/code-acf-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
