@@ -13,7 +13,7 @@
   },
   "acf_add_email_field": {
     "prefix": "acf_add_email_field",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'email',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'email',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0",
     "description": "Adds an ACF Email field",
     "scope": "source.php"
   },
@@ -55,7 +55,7 @@
   },
   "acf_add_number_field": {
     "prefix": "acf_add_number_field",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'number',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n        'min'               => '',\n        'max'               => '',\n        'step'              => '',\n    ],$0",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'number',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER',\n        'prepend'           => '',\n        'append'            => '',\n        'min'               => '',\n        'max'               => '',\n        'step'              => '',\n    ],$0",
     "description": "Adds an ACF Number field",
     "scope": "source.php"
   },
@@ -73,7 +73,7 @@
   },
   "acf_add_password_field": {
     "prefix": "acf_add_password_field",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'password',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'password',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0",
     "description": "Adds an ACF Password field",
     "scope": "source.php"
   },
@@ -97,7 +97,7 @@
   },
   "acf_add_select_field": {
     "prefix": "acf_add_select_field",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'select',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'allow_null'        => 0,\n        'multiple'          => 0,\n        'ui'                => 0,\n        'ajax'              => 0,\n        'placeholder'       => 'PLACEHOLDER}',\n    ],$0",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'select',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'allow_null'        => 0,\n        'multiple'          => 0,\n        'ui'                => 0,\n        'ajax'              => 0,\n        'placeholder'       => 'PLACEHOLDER',\n    ],$0",
     "description": "Adds an ACF Select dropdown field",
     "scope": "source.php"
   },
@@ -109,13 +109,13 @@
   },
   "acf_add_text_field": {
     "prefix": "acf_add_text_field",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'text',\n        'parent'            => '${4: PAREN',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n        'maxlength'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'text',\n        'parent'            => '${4: PAREN',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER',\n        'prepend'           => '',\n        'append'            => '',\n        'maxlength'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0",
     "description": "Adds an ACF Text field",
     "scope": "source.php"
   },
   "acf_add_textarea": {
     "prefix": "acf_add_textarea",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'textarea',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'maxlength'         => '',\n        'rows'              => '',\n        'new_lines'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'textarea',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER',\n        'maxlength'         => '',\n        'rows'              => '',\n        'new_lines'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0",
     "description": "Adds an ACF Textarea",
     "scope": "source.php"
   },
@@ -127,7 +127,7 @@
   },
   "acf_add_url_field": {
     "prefix": "acf_add_url_field",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'url',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n    ],$0;",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'url',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER',\n    ],$0;",
     "description": "Adds an ACF URL field",
     "scope": "source.php"
   },
