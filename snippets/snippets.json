@@ -7,167 +7,167 @@
   },
   "acf_add_checkbox_field": {
     "prefix": "acf_add_checkbox_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'checkbox',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'layout'            => 0,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'checkbox',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'layout'            => 0,\n    ],$0",
     "description": "Adds an ACF Checkbox",
     "scope": "source.php"
   },
   "acf_add_email_field": {
     "prefix": "acf_add_email_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'email',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'email',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0",
     "description": "Adds an ACF Email field",
     "scope": "source.php"
   },
   "acf_add_file_field": {
     "prefix": "acf_add_file_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'file',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'return_format'     => 'array',\n        'preview_size'      => 'thumbnail',\n        'library'           => 'all',\n        'min_size'          => 0,\n        'max_size'          => 0,\n        'mime_types'        => '',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'file',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'return_format'     => 'array',\n        'preview_size'      => 'thumbnail',\n        'library'           => 'all',\n        'min_size'          => 0,\n        'max_size'          => 0,\n        'mime_types'        => '',\n    ],$0",
     "description": "Adds an ACF File field",
     "scope": "source.php"
   },
   "acf_add_gallery": {
     "prefix": "acf_add_gallery",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'gallery',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'min'               => 0,\n        'max'               => 0,\n        'preview_size'      => 'thumbnail',\n        'library'           => 'all',\n        'min_width'         => 0,\n        'min_height'        => 0,\n        'min_size'          => 0,\n        'max_width'         => 0,\n        'max_height'        => 0,\n        'max_size'          => 0,\n        'mime_types'        => '',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'gallery',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'min'               => 0,\n        'max'               => 0,\n        'preview_size'      => 'thumbnail',\n        'library'           => 'all',\n        'min_width'         => 0,\n        'min_height'        => 0,\n        'min_size'          => 0,\n        'max_width'         => 0,\n        'max_height'        => 0,\n        'max_size'          => 0,\n        'mime_types'        => '',\n    ],$0",
     "description": "Adds an ACF Gallery",
     "scope": "source.php"
   },
   "acf_add_image_field": {
     "prefix": "acf_add_image_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'image',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'return_format'     => 'array',\n        'preview_size'      => 'thumbnail',\n        'library'           => 'all',\n        'min_width'         => 0,\n        'min_height'        => 0,\n        'min_size'          => 0,\n        'max_width'         => 0,\n        'max_height'        => 0,\n        'max_size'          => 0,\n        'mime_types'        => '',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'image',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'return_format'     => 'array',\n        'preview_size'      => 'thumbnail',\n        'library'           => 'all',\n        'min_width'         => 0,\n        'min_height'        => 0,\n        'min_size'          => 0,\n        'max_width'         => 0,\n        'max_height'        => 0,\n        'max_size'          => 0,\n        'mime_types'        => '',\n    ],$0",
     "description": "Adds an ACF Image field",
     "scope": "source.php"
   },
   "acf_add_field": {
     "prefix": "acf_add_field",
-    "body": "    [\n        'key'    => 'field_' . \\$blockname . '_changethis}',\n        'label'  => '${2: LABEL}',\n        'name'   => \"\\$blockname-content\",\n        'type'   => '{3 : TYPE}',\n        'parent' => '${4: PARE}'\n    ],$0\n",
+    "body": "[\n        'key'    => 'field_' . \\$blockname . '_changethis}',\n        'label'  => '${2: LABEL}',\n        'name'   => \"\\$blockname-content\",\n        'type'   => '{3 : TYPE}',\n        'parent' => '${4: PARE}'\n    ],$0",
     "description": "Adds a generic field function with the properties used for every field, use it to create any ACF field you want",
     "scope": "source.php"
   },
   "acf_add_field_group": {
     "prefix": "acf_add_field_group",
-    "body": "acf_add_local_field_group([\n    'key'                   => 'field_' . \\$blockname . '_changethis}',\n        'title'                 => '${1: TITLE}',\n        'fields'                => [],\n        'location'              => [\n            [\n              [\n                'param'    => 'post_type',\n                'operator' => ' == ',\n                'value'    => 'post',\n              ],\n            ],\n        ],\n        'menu_order'            => 0,\n        'position'              => 'normal',\n        'style'                 => 'default',\n        'label_placement'       => 'top',\n        'instruction_placement' => 'label',\n        'hide_on_screen'        => '',\n    ]),$0\n",
+    "body": "acf_add_local_field_group([\n    'key'                   => 'field_' . \\$blockname . '_changethis}',\n        'title'                 => '${1: TITLE}',\n        'fields'                => [],\n        'location'              => [\n            [\n              [\n                'param'    => 'post_type',\n                'operator' => ' == ',\n                'value'    => 'post',\n              ],\n            ],\n        ],\n        'menu_order'            => 0,\n        'position'              => 'normal',\n        'style'                 => 'default',\n        'label_placement'       => 'top',\n        'instruction_placement' => 'label',\n        'hide_on_screen'        => '',\n    ]),$0",
     "description": "Adds an ACF Field Group",
     "scope": "source.php"
   },
   "acf_add_location_rule": {
     "prefix": "acf_add_location_rule",
-    "body": "[\n        'param'    => 'post_type',\n        'operator' => '==',\n        'value'    => 'post',\n    ],\n",
+    "body": "[\n        'param'    => 'post_type',\n        'operator' => '==',\n        'value'    => 'post',\n    ],",
     "description": "Adds the ACF Location rules",
     "scope": "source.php"
   },
   "acf_add_number_field": {
     "prefix": "acf_add_number_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'number',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n        'min'               => '',\n        'max'               => '',\n        'step'              => '',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'number',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n        'min'               => '',\n        'max'               => '',\n        'step'              => '',\n    ],$0",
     "description": "Adds an ACF Number field",
     "scope": "source.php"
   },
   "acf_add_oembed": {
     "prefix": "acf_add_oembed",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'oembed',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'width'             => '',\n        'height'            => '',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'oembed',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'width'             => '',\n        'height'            => '',\n    ],$0",
     "description": "Adds an ACF oEmbed",
     "scope": "source.php"
   },
   "acf_add_page_link_field": {
     "prefix": "acf_add_page_link_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'page_link',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'allow_null'        => 0,\n        'multiple'          => 0,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'page_link',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'allow_null'        => 0,\n        'multiple'          => 0,\n    ],$0",
     "description": "Adds an ACF Page Link field",
     "scope": "source.php"
   },
   "acf_add_password_field": {
     "prefix": "acf_add_password_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'password',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'password',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n    ],$0",
     "description": "Adds an ACF Password field",
     "scope": "source.php"
   },
   "acf_add_post_object_field": {
     "prefix": "acf_add_post_object_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'post_object',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'allow_null'        => 0,\n        'multiple'          => 0,\n        'return_format'     => 'object',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'post_object',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'allow_null'        => 0,\n        'multiple'          => 0,\n        'return_format'     => 'object',\n    ],$0",
     "description": "Adds an ACF Post Object field",
     "scope": "source.php"
   },
   "acf_add_radio_field": {
     "prefix": "acf_add_radio_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'radio',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'other_choice'      => 0,\n        'save_other_choice' => 0,\n        'layout'            => 0,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'radio',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'other_choice'      => 0,\n        'save_other_choice' => 0,\n        'layout'            => 0,\n    ],$0",
     "description": "Adds an ACF Radiobutton",
     "scope": "source.php"
   },
   "acf_add_relationship_field": {
     "prefix": "acf_add_relationship_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'relationship',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'filters'           => ['search', 'post_type', 'taxonomy'],\n        'elements'          => [],\n        'min'               => 0,\n        'max'               => 0,\n        'return_format'     => 'object',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'relationship',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'filters'           => ['search', 'post_type', 'taxonomy'],\n        'elements'          => [],\n        'min'               => 0,\n        'max'               => 0,\n        'return_format'     => 'object',\n    ],$0",
     "description": "Adds an ACF Relationship field",
     "scope": "source.php"
   },
   "acf_add_select_field": {
     "prefix": "acf_add_select_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'select',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'allow_null'        => 0,\n        'multiple'          => 0,\n        'ui'                => 0,\n        'ajax'              => 0,\n        'placeholder'       => 'PLACEHOLDER}',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'select',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'choices'           => [],\n        'allow_null'        => 0,\n        'multiple'          => 0,\n        'ui'                => 0,\n        'ajax'              => 0,\n        'placeholder'       => 'PLACEHOLDER}',\n    ],$0",
     "description": "Adds an ACF Select dropdown field",
     "scope": "source.php"
   },
   "acf_add_taxonomy_field": {
     "prefix": "acf_add_taxonomy_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'taxonomy',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'filters'           => ['search', 'post_type', 'taxonomy'],\n        'elements'          => [],\n        'min'               => 0,\n        'max'               => 0,\n        'return_format'     => 'object',\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'taxonomy',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'post_type'         => '',\n        'taxonomy'          => '',\n        'filters'           => ['search', 'post_type', 'taxonomy'],\n        'elements'          => [],\n        'min'               => 0,\n        'max'               => 0,\n        'return_format'     => 'object',\n    ],$0",
     "description": "Adds an ACF Taxonomy field",
     "scope": "source.php"
   },
   "acf_add_text_field": {
     "prefix": "acf_add_text_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'text',\n        'parent'            => '${4: PAREN',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n        'maxlength'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'text',\n        'parent'            => '${4: PAREN',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'prepend'           => '',\n        'append'            => '',\n        'maxlength'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0",
     "description": "Adds an ACF Text field",
     "scope": "source.php"
   },
   "acf_add_textarea": {
     "prefix": "acf_add_textarea",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'textarea',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'maxlength'         => '',\n        'rows'              => '',\n        'new_lines'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'textarea',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n        'maxlength'         => '',\n        'rows'              => '',\n        'new_lines'         => '',\n        'readonly'          => 0,\n        'disabled'          => 0,\n    ],$0",
     "description": "Adds an ACF Textarea",
     "scope": "source.php"
   },
   "acf_add_true_false_field": {
     "prefix": "acf_add_true_false_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'true_false',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'message'           => 0,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'true_false',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'message'           => 0,\n    ],$0",
     "description": "Adds an ACF True/False (Switch) field",
     "scope": "source.php"
   },
   "acf_add_url_field": {
     "prefix": "acf_add_url_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'url',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n    ],$0;\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'url',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'placeholder'       => 'PLACEHOLDER}',\n    ],$0;",
     "description": "Adds an ACF URL field",
     "scope": "source.php"
   },
   "acf_add_user_field": {
     "prefix": "acf_add_user_field",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'user',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'role'              => [],\n        'allow_null'        => 0,\n        'multiple'          => 0,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'user',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'role'              => [],\n        'allow_null'        => 0,\n        'multiple'          => 0,\n    ],$0",
     "description": "Adds an ACF User field",
     "scope": "source.php"
   },
   "acf_add_wysiwyg": {
     "prefix": "acf_add_wysiwyg",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'wysiwyg',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'tabs'              => 'all',\n        'toolbar'           => 'full',\n        'media_upload'      => 1,\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'wysiwyg',\n        'parent'            => '',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'default_value'     => '',\n        'tabs'              => 'all',\n        'toolbar'           => 'full',\n        'media_upload'      => 1,\n    ],$0",
     "description": "Adds an ACF WYSIWYG",
     "scope": "source.php"
   },
   "acf_add_wrapper_values": {
     "prefix": "acf_add_wrapper_values",
-    "body": "'wrapper' => [\n        'width' => '',\n        'class' => '',\n        'id'    => '',\n    ],\n",
+    "body": "'wrapper' => [\n        'width' => '',\n        'class' => '',\n        'id'    => '',\n    ],",
     "description": "Adds an ACF WYSIWYG",
     "scope": "source.php"
   },
   "acf_add_repeater": {
     "prefix": "acf_add_repeater",
-    "body": "    [\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'repeater',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'collapsed'         => '',\n        'min'               => 0,\n        'max'               => 0,\n        'layout'            => 'block',\n        'button_label'      => 'Add item',\n        'sub_fields'        => [],\n    ],$0\n",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_changethis}',\n        'label'             => '${1: LABEL}',\n        'name'              => \"\\$blockname-content\",\n        'type'              => 'repeater',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'collapsed'         => '',\n        'min'               => 0,\n        'max'               => 0,\n        'layout'            => 'block',\n        'button_label'      => 'Add item',\n        'sub_fields'        => [],\n    ],$0",
     "description": "Adds an ACF Repeater field",
     "scope": "source.php"
   },
   "acf_add_link_field": {
     "prefix": "acf_add_link_field",
-    "body": "    [\n        'key'   => 'field_' . \\$blockname . '_changethis}',\n        'label' => '${1: LABEL}',\n        'name'  => \"\\$blockname-content\",\n        'type'  => 'link',\n    ],$0\n",
+    "body": "[\n        'key'   => 'field_' . \\$blockname . '_changethis}',\n        'label' => '${1: LABEL}',\n        'name'  => \"\\$blockname-content\",\n        'type'  => 'link',\n    ],$0",
     "description": "ACF field to add a link"
   },
   "acf_add_flex_content": {
     "prefix": "acf_add_flex_content",
-    "body": "    [\n        'key'          => 'field_' . \\$blockname . '_changethis}',\n        'label'        => '${2: LABEL}',\n        'type'         => 'flexible_content',\n        'button_label' => '${3: Add new layout}',\n        'layouts'      => [],\n    ],$0\n",
+    "body": "[\n        'key'          => 'field_' . \\$blockname . '_changethis}',\n        'label'        => '${2: LABEL}',\n        'type'         => 'flexible_content',\n        'button_label' => '${3: Add new layout}',\n        'layouts'      => [],\n    ],$0",
     "description": "ACF add flexible content field"
   },
   "acf_add_flex_layout": {
     "prefix": "acf_add_flex_layout",
-    "body": "'${1:name}' => [\n    'key'        => 'field_' . \\$blockname . '_changethis}',\n        'label'      => '${1: LABEL}',\n        'display'    => 'block',\n        'sub_fields' => [\n        ],\n    ],$0\n",
+    "body": "'${1:name}' => [\n    'key'        => 'field_' . \\$blockname . '_changethis}',\n        'label'      => '${1: LABEL}',\n        'display'    => 'block',\n        'sub_fields' => [\n        ],\n    ],$0",
     "description": "ACF add flexible layout (must be a child of a flexible content)"
   }
 }
