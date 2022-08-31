@@ -169,5 +169,10 @@
     "prefix": "acf_add_flex_layout",
     "body": "'${1:name}' => [\n    'key'        => 'field_' . \\$blockname . '_${1: KEY}',\n        'label'      => '${2: LABEL}',\n        'display'    => 'block',\n        'sub_fields' => [\n        ],\n    ],$0",
     "description": "ACF add flexible layout (must be a child of a flexible content)"
+  },
+  "tsi": {
+    "prefix": "tsi",
+    "body": "<?= (!empty($${1:Image})) ? wp_get_attachment_image($${1:image}, '${2:size}', false, [\"class\" => '${3:classes}']) : false; ?>$0",
+    "description": "Add responsive image condition"
   }
 }
