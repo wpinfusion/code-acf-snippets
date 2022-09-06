@@ -172,7 +172,7 @@
   },
   "acf_add_google_map": {
     "prefix": "acf_add_google_map",
-    "body": "[\n        'key'               => 'field_' . \\$blockname . '_${1: KEY}',\n        'label'             => '${2: LABEL}',\n        'name'              => \"\\$blockname-${1: NAME}\",\n        'type'              => 'google_map',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'center_lat'     => '',\n        'center_long'              => 'all',\n        'zoom'           => 'full',\n        'height'      => 1,\n    ],$0",
+    "body": "[\n        'key'               => 'field_' . \\$blockname . '_${1: KEY}',\n        'label'             => '${2: LABEL}',\n        'name'              => \"\\$blockname-${1: NAME}\",\n        'type'              => 'google_map',\n        'instructions'      => '',\n        'required'          => 0,\n        'conditional_logic' => 0,\n        'center_lat'        => '',\n        'center_long'       => 'all',\n        'zoom'              => 'full',\n        'height'            => 1,\n    ],$0",
     "description": "Adds a Google Map",
     "scope": "source.php"
   }
